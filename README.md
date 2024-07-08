@@ -37,5 +37,5 @@ Este é um projeto de um jogo interativo onde o jogador deve adivinhar um númer
 
 1. Clone o repositório.
    ```sh
-   git clone https://github.com/seu-usuario/seu-repositorio.git
+   git clone https://github.com/Diegoliveirs/jogo-do-numero-secreto.git
 2. Abra o arquivo `index.html` no seu navegador.
