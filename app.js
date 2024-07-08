@@ -1,7 +1,6 @@
 let listaDeNumerosSorteados = [];
 let numeroLimite = 10;
 let numeroAleatorio = gerarUmNumeroAleatorio();
-console.log(`número aleatorio é ${numeroAleatorio}`);
 let tentativas = 1;
 
 
@@ -54,7 +53,6 @@ function gerarUmNumeroAleatorio() {
         return gerarUmNumeroAleatorio(); 
     } else {
         listaDeNumerosSorteados.push(NumeroEscolhido);
-        console.log(listaDeNumerosSorteados);
         return NumeroEscolhido;
     }
 }
@@ -66,7 +64,6 @@ function limparCampo() {
 
 function reiniciarJogo() {
     numeroAleatorio = gerarUmNumeroAleatorio();
-    console.log(`número aleatorio é ${numeroAleatorio}`);
     limparCampo();
     tentativas = 1;
     exibirMensagemInicial();
